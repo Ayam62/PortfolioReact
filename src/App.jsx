@@ -4,14 +4,19 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
+import About from './components/About'
+import Skills from './components/Skills'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <div className='body h-screen p-5'>
     <Navbar/>
     <Home/>
+    <Skills/>
+    {/* <About/> */}
+    
     </div>
   )
 }
