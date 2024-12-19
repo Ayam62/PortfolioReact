@@ -6,6 +6,7 @@ import Navbar from './components/Navbar'
 import Home from './components/Home'
 import About from './components/About'
 import Skills from './components/Skills'
+import Service from './components/Service'
 
 function App() {
 
@@ -14,7 +15,9 @@ function App() {
     <div className='body h-screen p-5'>
     <Navbar/>
     <Home/>
+    <Service/>
     <Skills/>
+    
     {/* <About/> */}
     
     </div>

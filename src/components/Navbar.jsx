@@ -14,10 +14,10 @@ const Navbar = () => {
       <div className="contents" >
         <ul className="flex gap-8 m-5 font-bold bg-transparent">
             <li>Home</li>
-            <li>About</li>
-            <li>Skills</li>
             <li>Service</li>
+            <li>Skills</li>
             <li>Projects</li>
+            <li>About</li>
         </ul>
       </div>
       <div className="drop-down p-5 mx-5  bg-[#55E6A5] rounded-full cursor-pointer"><GiHamburgerMenu color="black" style={{ background: 'transparent' }}  size={20}  /></div>
