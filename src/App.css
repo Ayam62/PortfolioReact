@@ -7,6 +7,10 @@
 }
 .body{
   background-color: #08111A;
+  width: 100%;
+  margin:0;
+  padding: 0;
+  overflow-x: hidden;
 }
 .contents li{
   cursor: pointer;
