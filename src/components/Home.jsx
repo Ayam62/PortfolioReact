@@ -3,7 +3,7 @@ import ayam from "../assets/ayam.png"
 
 const Home = () => {
   return (
-    <div id="Home" className='Home w-screen   h-screen flex items-center '>
+    <div id="Home" name="Home" className='Home w-screen   h-screen flex items-center '>
         <div className="left px-10  w-2/3 ">
             <h1 className='text-white text-6xl  font-semibold '>HI, I'M AYAM !</h1>
             <h1 className='text-[#55E6A5] text-5xl font-semibold my-5'>FRONT END DEVELOPER</h1>

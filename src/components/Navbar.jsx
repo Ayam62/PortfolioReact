@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import {
   Link,
@@ -10,6 +10,7 @@ import {
 } from "react-scroll";
 
 const Navbar = () => {
+
   return (
     <div
       id="nav"
@@ -40,9 +41,19 @@ const Navbar = () => {
          smooth={true} 
          offset={500} 
          duration={500} 
-        //  onSetActive={handleSetActive}
         > Home</Link></li>
-          <li>Service</li>
+
+          <li>
+            <Link
+             activeClass="active"
+             to="service"
+             smooth={true}
+             offset={50}
+             duration={500}
+            >
+            Service
+            </Link>
+            </li>
           <li>Skills</li>
           <li>Projects</li>
           <li>About</li>

@@ -20,17 +20,7 @@ import {
 function App() {
   return (
     <div className="body h-screen p-5">
-      <Link
-        activeClass="active"
-        to="nav"
-        spy={true}
-        smooth={true}
-        offset={50}
-        duration={500}
-      >
-        {" "}
-        <Navbar />
-      </Link>
+      <Navbar />
       <Home />
       <Service />
       <Skills />
