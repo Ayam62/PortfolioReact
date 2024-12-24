@@ -8,11 +8,29 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Service from "./components/Service";
 import GetInTouch from "./components/GetInTouch";
+import {
+  Link,
+  Button,
+  Element,
+  Events,
+  animateScroll as scroll,
+  scrollSpy,
+} from "react-scroll";
 
 function App() {
   return (
     <div className="body h-screen p-5">
-      <Navbar />
+      <Link
+        activeClass="active"
+        to="nav"
+        spy={true}
+        smooth={true}
+        offset={50}
+        duration={500}
+      >
+        {" "}
+        <Navbar />
+      </Link>
       <Home />
       <Service />
       <Skills />
