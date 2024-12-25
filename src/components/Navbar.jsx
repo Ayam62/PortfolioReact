@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <div
       id="nav"
-      className="navContainer mt-5 fixed flex justify-between items-center bg-[#151C27] w-full   text-white rounded-full p-1"
+      className="navContainer mt-5 fixed flex justify-between items-center bg-[#151C27] w-full  z-10  text-white rounded-full p-1"
     >
       <div className="logo p-5 bg-transparent">
         <svg
@@ -48,7 +48,7 @@ const Navbar = () => {
              activeClass="active"
              to="service"
              smooth={true}
-             offset={50}
+             offset={0}
              duration={500}
             >
             Service
